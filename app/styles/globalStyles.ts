@@ -7,6 +7,9 @@ export const globalStyles = StyleSheet.create({
     flex: 1,
     padding: sizes.padding,
     backgroundColor: colors.lightBackground,
+    display:'flex',
+    alignItems:'center',
+    justifyContent:'center'
   },
   title: {
     fontSize: sizes.large,
@@ -14,13 +17,15 @@ export const globalStyles = StyleSheet.create({
     marginBottom: sizes.margin,
   },
   image: {
-    width: 200,
-    height: 200,
+    width: 300,
+    height: 300,
     marginBottom: 20,
+    resizeMode:'contain',
   },
   description: {
     fontSize: 16,
     textAlign: 'center',
     marginBottom: 20,
+    color:colors.grey,
   },
 });

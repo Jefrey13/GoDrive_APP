@@ -22,6 +22,7 @@ const WelcomeScreen3: React.FC<Props> = ({ navigation }) => {
         Achieve your travel goals by easily navigating to your destination in no time.
       </Text>
       <ProgressIndicator totalSteps={3} currentStep={2} />
+      {/* <Button title="Start" onPress={() => navigation.replace('Login')} /> */}
       <Button title="Start" onPress={() => navigation.replace('Login')} />
     </View>
   );
